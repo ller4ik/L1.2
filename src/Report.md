@@ -6,18 +6,26 @@
 
 На тестирование затрачено: 1 час
 
-В результате тестирования дефектов не выявлено
+В результате тестирования  выявлены следующие дефекты:
+* [https://github.com/ller4ik/L1.2/issues/1](https://github.com/ller4ik/L1.2/issues/1)
 
 ## Описание процесса тестирования
 
 В процессе тестирования использовались следующие артефакты:
 * Чек-лист [https://docs.google.com/spreadsheets/d/1ktUAt-T-pzPCXo6udWmM1bAzIuN1rRY52vD52tM5h1g/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1ktUAt-T-pzPCXo6udWmM1bAzIuN1rRY52vD52tM5h1g/edit?usp=sharing) 
 
-В качестве тестовых данных использовались условия из технического задания:
-* Получение ответа программы: валидный/невалидный номер банковской карты в соответствии с заполненными данными о проверяемой карте
+В качестве тестовых данных использовались условия из чек-листа:
+* В соответствии с заполенными данными проверяемой банковской карты, получение ответа программы: валидный/невалидный номер банковской карты 
 
 Тестирование производилось в следующем окружении:
+* Устройство: LENOVO DESKTOP-VP7EBML
 * ОС - Майкрософт Windows 10 Домашняя
-* 11 (Java SE 11) - 2018
-* Устройство - LENOVO DESKTOP-VP7EBML
-* Версия браузера Google Chrome 92.0.4515.107
+* Java -version:
+
+  - Openjdk version "11.0.11" 2021-04-20;
+
+  - OpenJDK Runtime Environment AdoptOpenJDK-11.0.11+9 (build 11.0.11+9);
+
+  - 64-Bit Server VM AdoptOpenJDK-11.0.11+9 (build 11.0.11+9, mixed mode)
+
+* Intellij IDEA Community 2021.2.1
